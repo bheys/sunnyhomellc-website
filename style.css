@@ -177,7 +177,7 @@ ul {
 .hero {
   position: relative;
   width: 100%;
-  aspect-ratio: 2 / 1;
+  aspect-ratio: 2.2 / 1;
   overflow: hidden;
   background: var(--color-cream);
 }
@@ -228,7 +228,7 @@ ul {
 .intro-banner {
   background: var(--color-navy);
   color: var(--color-white);
-  padding: 60px 0 90px;
+  padding: 30px 0 50px;
 }
 .intro-banner h1 {
   font-family: var(--font-heading);
@@ -248,7 +248,10 @@ ul {
 }
 .intro-banner .lede {
   font-weight: 600;
-  margin-bottom: 14px;
+  margin-bottom: 14px; 
+  font-size:1.2em;
+  Line-height:1;
+
 }
 .intro-banner .body-text {
   max-width: 640px;
@@ -336,6 +339,11 @@ ul {
   font-weight: 600;
   font-size: 1.3rem;
 }
+
+.cta-strip .accent {
+  color: var(--color-gold);
+}
+
 .cta-buttons {
   display: flex;
   gap: 14px;
@@ -427,11 +435,11 @@ ul {
   font-family: var(--font-heading);
   color: var(--color-gold);
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .contact h2 {
   font-family: var(--font-heading);
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 }
 .contact-sub {
