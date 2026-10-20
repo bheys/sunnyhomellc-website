@@ -418,8 +418,8 @@ ul {
 
 .contact {
   position: relative;
-  background: linear-gradient(rgba(60, 60, 60, 0.55), rgba(60, 60, 60, 0.55)),
-              url('https://placehold.co/1600x900/808080/ffffff?text=Room+Photo') center/cover;
+  background: linear-gradient(rgba(60, 60, 60, 0.6), rgba(60, 60, 60, 0.6)),
+              url('images/interior/beigeChairWindowRoom.jpg') center/cover;
   color: var(--color-white);
   padding: 70px 0;
 }
