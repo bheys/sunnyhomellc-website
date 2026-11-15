@@ -867,5 +867,8 @@ hr {
 hr {
   margin: 0em 0em;
 }
+#projects hr {
+  margin: 3em 2em;
+  }
 
 }
