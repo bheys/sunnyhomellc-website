@@ -816,6 +816,17 @@ hr {
     gap: 16px;
   }
 
+/* white hamburger icon*/
+.menu-toggle span {
+  background: var(--color-white);
+}
+
+/* black mobile navigation links */
+.main-nav a {
+  color: var(--color-text);
+}
+
+
   /* gallery */
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -836,5 +847,15 @@ hr {
     justify-content: center;
     text-align: center;
   }
+
+.cta-inner p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  margin: 1.5em 1em;
+}
 
 }
