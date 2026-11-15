@@ -599,6 +599,7 @@ hr {
 .contact-sub {
   margin-bottom: 26px;
   color: rgba(255, 255, 255, 0.85);
+  text-align: center;
 }
 
 /* contact form layout */
