@@ -843,6 +843,15 @@ hr {
     flex-direction: column;
   }
 
+  /* wider contact/button form on mobile */
+.contact-form {
+  width: 100%;
+  }
+  
+  .contact-form button {
+  padding: 14px 36px;
+  font-size: 1.05rem;
+  }
   /* cta banner */
   .cta-inner {
     justify-content: center;
