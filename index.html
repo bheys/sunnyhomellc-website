@@ -18,16 +18,16 @@
     <div class="header-inner">
       <a href="#home" class="logo">SUNNY HOME <span>LLC</span></a>
 
-      <!-- Hamburger button, only shows on mobile -->
+      <!-- hamburger button for mobile -->
       <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
 
       <nav class="main-nav" id="mainNav">
         <ul>
-          <li><a href="#home">Home</a></li>
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact Me</a></li>
         </ul>
@@ -42,7 +42,7 @@
         <img src="images/interior/yellowWallsWindows.jpg" alt="Sunny yellow painted walls and windows">
       </div>
       <div class="slide">
-        <img src="images/interior/beigeStairsLadder.jpg" alt="Freshly painted white exterior of event space">
+        <img src="images/interior/beigeStairsLadder.jpg" alt="Beige walkway with stairs and painting ladder">
       </div>
       <div class="slide">
         <img src="images/exterior/whiteEventSpace.jpg" alt="Freshly painted white exterior of event space">
@@ -59,7 +59,7 @@
       <p class="tags">EXTERIOR &nbsp;&middot;&nbsp; INTERIOR &nbsp;&middot;&nbsp; ART &nbsp;&middot;&nbsp; OTHER</p>
       <p class="lede">Solo painting contractor based in Pittsburgh, PA.</p>
       <p class="body-text">
-        For over two years, Sunny Home LLC has helped countless homeowners transform their spaces with quality craftsmanship and dependable service. From exterior and interior painting to custom artwork and handyman projects, every job is completed with care, attention to detail, and pride.
+        For over three years, Sunny Home LLC has helped countless homeowners transform their spaces with quality craftsmanship and dependable service. From exterior and interior painting to custom artwork and handyman projects, every job is completed with care, attention to detail, and pride.
       </p>
     </div>
   </section>
@@ -71,20 +71,20 @@
 
       <div class="service-grid">
         <article class="service-card">
-          <img src="images/exterior/redBordersHouse.jpg" alt="Exterior painting project">
+          <img src="images/exterior/redBordersHouse.jpg" alt="Exterior services: front of house with painted red trim">
           <div class="service-body">
             <h3>Exterior</h3>
             <p>Professional exterior painting and finishing services, including trim, siding, brick, and other surfaces, along with general exterior repairs.</p>
-            <a href="#" class="btn btn-gold">Read More</a>
+            <a href="#contact" class="btn btn-gold">Contact Me</a>
           </div>
         </article>
 
         <article class="service-card">
-          <img src="images/interior/beigeBedroomFireplace.jpg" alt="Interior painting project">
+          <img src="images/interior/beigeBedroomFireplace.jpg" alt="Interior services: beige painted bedroom with fireplace">
           <div class="service-body">
             <h3>Interior</h3>
             <p> Quality interior painting services for walls, ceilings, trim, cabinets, and furniture, with careful preparation and clean finishes.</p>
-            <a href="#" class="btn btn-gold">Read More</a>
+            <a href="#contact" class="btn btn-gold">Contact Me</a>
           </div>
         </article>
 
@@ -93,7 +93,7 @@
           <div class="service-body">
             <h3>Additional</h3>
             <p>Reliable handyman and maintenance services for carpentry, drywall repairs, odd jobs, lawn work, gardening, snow removal, and other property upkeep.</p>
-            <a href="#" class="btn btn-gold">Read More</a>
+            <a href="#contact" class="btn btn-gold">Contact Me</a>
           </div>
         </article>
       </div>
@@ -101,21 +101,77 @@
   </section>
 <hr>
 
-  <section class="gallery" id="projects">
-    <div class="container">
-      <h2 class="section-title">Recent Work</h2>
-      <div class="gallery-grid">
-        <div class="gallery-item"><img src="images/exterior/brickTwoFloorHouseFront.jpg" alt="Recent painting project 1, of brick two-floor house"></div>
-        <div class="gallery-item"><img src="images/interior/beigeGeometricChimneyRoom.jpg" alt="Recent painting project 2, of beige geometric room with a brick chimney in the middle"></div>
-        <div class="gallery-item"><img src="images/exterior/greenBackPorchGrill.jpg" alt="Recent painting project 3, of green back porch with grill"></div>
-        <div class="gallery-item"><img src="images/other/servicingSecFloorWindow.jpg" alt="Recent painting project 4, servicing second floor window with cleaning tools"></div>
-        <div class="gallery-item"><img src="images/exterior/grayWhiteFrontPorchHouse.jpg" alt="Recent painting project 5, of gray and white front porch"></div>
-        <div class="gallery-item"><img src="images/exterior/whiteTwoGarages.jpg" alt="Recent painting project 6, of two white garages"></div>
-        <div class="gallery-item"><img src="images/interior/blackDryingCabinets.jpg" alt="Recent painting project 7, of freshly-painted black cabinet doors drying"></div>
-        <div class="gallery-item"><img src="images/exterior/whiteStairsBackPorch.jpg" alt="Recent painting project 8, of white stairs leading to back porch"></div>
+ 
+<section class="gallery" id="projects">
+  <div class="container">
+    <h2 class="section-title">Recent Work</h2>
+
+    <!-- before & after gallery -->
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <span class="gallery-label">BEFORE</span>
+        <img src="images/interior/beforeWhiteKitchenCabinets.jpg" alt="White kitchen cabinets before painting">
       </div>
+      <div class="gallery-item">
+        <span class="gallery-label after-label">AFTER</span>
+        <img src="images/interior/afterWhiteKitchenCabinets.jpg" alt="White kitchen cabinets after painting">
+      </div>
+
+      <div class="gallery-item">
+        <span class="gallery-label">BEFORE</span>
+        <img src="images/exterior/beforeRedSideSteps.jpg" alt="Red side steps before painting">
+      </div>
+      <div class="gallery-item">
+        <span class="gallery-label after-label">AFTER</span>
+        <img src="images/exterior/afterRedSideSteps.jpg" alt="Red side steps after painting">
+      </div>
+
+      <div class="gallery-item">
+        <span class="gallery-label">BEFORE</span>
+        <img src="images/exterior/beforeWhiteGarage.jpg" alt="White garage before painting">
+      </div>
+      <div class="gallery-item">
+        <span class="gallery-label after-label">AFTER</span>
+        <img src="images/exterior/afterWhiteGarage.jpg" alt="White garage after painting">
+      </div>
+
+      <div class="gallery-item">
+        <span class="gallery-label">BEFORE</span>
+        <img src="images/interior/beforeWhiteBathroomSinkMirror.jpg" alt="White bathroom sink and mirror before painting">
+      </div>
+      <div class="gallery-item">
+        <span class="gallery-label after-label">AFTER</span>
+        <img src="images/interior/afterWhiteBathroomSinkMirror.jpg" alt="White bathroom sink and mirror after painting">
+      </div>
+
+      <div class="gallery-item">
+        <span class="gallery-label">BEFORE</span>
+        <img src="images/interior/beforeBeigeWallpaperDiningRoom.jpg" alt="Dining room before painting">
+      </div>
+      <div class="gallery-item">
+        <span class="gallery-label after-label">AFTER</span>
+        <img src="images/interior/afterBeigeWallpaperDiningRoom.jpg" alt="Dining room after painting">
+      </div>
+
+      <div class="gallery-item">
+        <span class="gallery-label">BEFORE</span>
+        <img src="images/exterior/beforeGrayPorchDeckSteps.jpg" alt="Gray wooden deck steps before painting">
+      </div>
+      <div class="gallery-item">
+        <span class="gallery-label after-label">AFTER</span>
+        <img src="images/exterior/afterGrayPorchDeckSteps.jpg" alt="Gray wooden deck steps after painting">
+      </div>
+
     </div>
-  </section>
+<br>
+<br>
+        <p class ="center-text"><strong> <a href="projects.html" style="text-decoration: underline;">VIEW MORE PROJECTS &#8594;</a></strong>
+        </p>
+
+  </div>
+</section>
+
 
 
   <section class="cta-strip">
@@ -128,34 +184,41 @@
   </section>
 
 
-  <section class="artwork">
-    <div class="container">
-      <h2 class="section-title">Personal Artwork</h2>
-    </div>
-    <div class="artwork-slider-wrap">
-      <button class="slider-arrow prev" data-slider="artSlider" aria-label="Previous artwork">&#10094;</button>
-      <div class="artwork-slider" id="artSlider">
-        <div class="art-track">
-          <div class="art-slide"><img src="https://placehold.co/450x350/6f8fb8/ffffff?text=Artwork+1" alt="Personal artwork 1"></div>
-          <div class="art-slide"><img src="https://placehold.co/450x350/cfd6df/6b6b6b?text=Artwork+2" alt="Personal artwork 2"></div>
-          <div class="art-slide"><img src="https://placehold.co/450x350/eaeaea/6b6b6b?text=Artwork+3" alt="Personal artwork 3"></div>
-        </div>
+  
+<section class="artwork">
+  <div class="container">
+    <h2 class="section-title">Personal Artwork</h2>
+
+    <div class="artwork-grid">
+
+      <div class="gallery-item">
+        <img src="images/artwork/homeArtworkManyPaintings1.jpg"
+             alt="Collection of Petro's personal artwork">
       </div>
-      <button class="slider-arrow next" data-slider="artSlider" aria-label="Next artwork">&#10095;</button>
+
+        <p class="center-text">
+*Artwork displayed is for <u>showcase purposes only</u> and is not available for direct purchase through this website. 
+        </p>
+        <p class="center-text"><strong>
+For commission inquiries or information on upcoming art shows and sales, please <a href="#contact" style="text-decoration: underline;">get in touch!</a></strong>
+        </p>
     </div>
-  </section>
+
+  </div>
+</section>
+
 
 <hr>
   <section class="about" id="about">
     <div class="container about-grid">
       <h2 class="section-title about-title">Meet the Owner</h2>
       <div class="about-photo">
-        <img src="images/other/petroPic.jpg" alt="Petro, owner of Sunny Home LLC">
+        <img src="images/other/petroPic.jpg" alt="Petro, owner of Sunny Home LLC, in front of his paintings">
       </div>
       <div class="about-text">
         <h3>Hi! I'm Petro</h3>
         <p>
-          Sunny Home LLC was founded in 2023 by Petro, an artist and former teacher from Ukraine, now based in Pittsburgh, PA. Bringing his artistic background and eye for detail into every project, Petro is committed to providing reliable, high-quality painting services with clean and modern results. In his free time, he can be seen gardening, painting, and spending time with his family.
+	Sunny Home LLC was founded in 2023 by Petro, an artist and former teacher from Ukraine, now based in Pittsburgh, PA. Bringing his artistic background and eye for detail into every project, Petro is committed to providing reliable, high-quality painting services with clean and modern results. In his free time, he can be seen gardening, painting, and spending time with his family.
 
         </p>
         <p class="contact-line">
